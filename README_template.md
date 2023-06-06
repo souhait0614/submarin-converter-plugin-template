@@ -12,9 +12,7 @@ import { templatePlugin } from "submarin-converter-plugin-template"
 
 const converter = new Converter({
   plugins: {
-    plugins: {
-      template: templatePlugin,
-    } as const,
+    template: templatePlugin,
   } as const,
 })
 
