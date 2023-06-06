@@ -30,6 +30,6 @@
     "vitest": "^0.31.3"
   },
   "dependencies": {
-    "submarin-converter": "^0.2.0"
+    "submarin-converter": "^0.2.1"
   }
 }

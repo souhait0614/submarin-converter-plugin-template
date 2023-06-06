@@ -1,4 +1,4 @@
-import { Converter, Plugin, Plugins } from "submarin-converter"
+import { Converter } from "submarin-converter"
 import { expect, test } from "vitest"
 import { templatePlugin } from "../src"
 

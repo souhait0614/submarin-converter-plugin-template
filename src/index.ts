@@ -1,9 +1,9 @@
-import { Plugin, type PluginConvertFunction } from "submarin-converter"
+import { Plugin, type ConvertFunction } from "submarin-converter"
 
 interface ConvertFunctionOption {
   prefix: string
 }
-const mainConvertFunction: PluginConvertFunction<ConvertFunctionOption> = ({ input, option }) =>
+const mainConvertFunction: ConvertFunction<ConvertFunctionOption> = ({ input, option }) =>
   `${option?.prefix ?? ""}${input}`
 
 const templatePlugin = new Plugin({
