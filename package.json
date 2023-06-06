@@ -19,13 +19,6 @@
   "scripts": {
     "build": "tsc && vite build",
     "prepublishOnly": "npm run test && npm run build",
-    "lint": "npm-run-all -p lint:*",
-    "lint:eslint": "eslint src/",
-    "lint:markdownlint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
-    "fix": "npm-run-all -p fix:*",
-    "fix:eslint": "eslint --fix src/",
-    "fix:prettier": "prettier --write src/",
-    "fix:markdownlint": "markdownlint-cli2-fix \"**/*.md\" \"#node_modules\"",
     "test": "vitest run",
     "test-watch": "vitest"
   },
