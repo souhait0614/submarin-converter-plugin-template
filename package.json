@@ -1,5 +1,6 @@
 {
   "name": "submarin-converter-plugin-template",
+  "description": "submarin-converterのプラグインモジュールのテンプレートです。",
   "private": true,
   "license": "MIT",
   "version": "1.0.0",
