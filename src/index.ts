@@ -8,6 +8,11 @@ const mainConvertFunction: ConvertFunction<ConvertFunctionOption> = ({ input, op
 
 const templatePlugin = new Plugin({
   convertFunction: [mainConvertFunction],
+  metaData: {
+    name: "テンプレートプラグイン",
+    description: "プラグインのテンプレートです",
+    author: "すえ"
+  }
 })
 
 export { templatePlugin }
